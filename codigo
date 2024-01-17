@@ -1,0 +1,13 @@
+-- Criar o banco de dados ESCOLA
+CREATE DATABASE ESCOLA;
+
+-- Usar o banco de dados ESCOLA
+\c ESCOLA;
+
+-- Criar a tabela ALUNO
+CREATE TABLE ALUNO (
+    ID SERIAL PRIMARY KEY,
+    Nome VARCHAR(255),
+    Email VARCHAR(255),
+    Endereco VARCHAR(255)
+);
